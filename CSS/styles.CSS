@@ -1,0 +1,71 @@
+/* цвет основного текста #212121*/
+/* вторичный цвет #757575*/
+/*белый #FFFFFF*/
+/*акцент #2196F3; #000000; rgba(255, 255, 255, 0.6);*/
+/* основной цвет фона #e5e5e5*/
+/* вторичный цвет фона #2F303A; #F5F4FA; #FFFFFF */
+/* body */
+.page {
+  background-color: #e5e5e5;
+  color: #212121;
+}
+/* header */
+.header {
+  background-color: #ffffff;
+}
+.logo-header {
+  color: #000000;
+}
+.logo-top {
+  color: #2196f3;
+}
+ul {
+  list-style: none;
+}
+.site-nav a {
+  color: #212121;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #2196f3;
+}
+.contact-link a,
+p {
+  color: #757575;
+}
+.contact-link a:hover,
+.contact-link a:focus {
+  color: #2196f3;
+}
+/* hero */
+.hero,
+.footer {
+  background-color: #2f303a;
+}
+.hero-title,
+.hero-button {
+  color: #ffffff;
+}
+.hero-button {
+  background-color: #2196f3;
+}
+.hero-button:hover,
+.hero-button:focus {
+}
+/* section */
+.section {
+  background-color: #f5f4fa;
+}
+/* our-team */
+
+.team-list {
+  background-color: #ffffff;
+}
+/* footer */
+.logo-footer,
+.contacts-list a {
+  color: #ffffff;
+}
+.link {
+  color: rgba(255, 255, 255, 0.6);
+}
